@@ -2,7 +2,7 @@
  * @description custom map polyfill
  * @template T, U
  * @param {(value: T, index: number, array: Array<T>) => U} callbackFn
- * @param {unknown} thisArg
+ * @param {unknown} [thisArg]
  * @returns {Array<U>}
  * @throws {TypeError} If called on null or undefined, or if callbackFn is not a function
  */
