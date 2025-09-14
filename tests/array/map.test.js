@@ -27,7 +27,7 @@ describe("Array.prototype.customMap", () => {
     const result = sparseArr.customMap((x) => x * 2);
     expect(result.length).toBe(3);
     expect(result[0]).toBe(2);
-    expect(1 in result).toBe(false); // hole remains
+    expect(1 in result).toBe(false);
     expect(result[2]).toBe(6);
   });
 
