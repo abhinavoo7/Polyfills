@@ -1,4 +1,4 @@
-import "../polyfills/array/map.js";
+import "../../polyfills/array/map.js";
 
 describe("Array.prototype.customMap", () => {
   test("maps numbers correctly", () => {

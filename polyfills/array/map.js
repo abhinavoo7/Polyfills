@@ -1,5 +1,5 @@
 /**
- * @description custom map function
+ * @description custom map polyfill
  * @template T, U
  * @param {(value: T, index: number, array: Array<T>) => U} callbackFn
  * @param {unknown} thisArg
