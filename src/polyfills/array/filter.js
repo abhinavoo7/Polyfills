@@ -4,7 +4,7 @@
  * @param { (value: T, index: number, array: Array<T>) => boolean } callbackFn
  * @param {unknown} [thisArg]
  * @return {Array<T>}
- * @throws {TypeError} If called on null or undefined, or if callbackFn is not a function
+ * @throws {TypeError} if called on null or undefined, or if callbackFn is not a function
  */
 Array.prototype.customFilter = function (callbackFn, thisArg) {
   // Check if the array is null or undefined
